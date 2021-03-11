@@ -76,6 +76,7 @@ export function initShortcut(lf: LogicFlow, graph: GraphModel) {
     if (!keyboardOptions.enabled) return;
     if (graph.textEditElement) return;
     lf.redo();
+    console.log(1);
     return false;
   });
   // delete
